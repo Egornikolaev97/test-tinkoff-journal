@@ -1,0 +1,21 @@
+.image-main {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+  }
+
+  .image-container {
+    border-radius: 50%;
+    background-color: #f1f3f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .image-main {
+    position: static;
+  }
+}

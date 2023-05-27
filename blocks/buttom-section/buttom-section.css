@@ -1,0 +1,27 @@
+.buttom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #808C9E;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .buttom-section__read-more {
+    color: #597DB3;
+    border-bottom: 1px solid rgba(51 111 238 /.2);
+    transition: .2s linear;
+    cursor: pointer;
+  }
+
+  .buttom-section__read-more:hover {
+    color: #ffdd2d;
+  }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .buttom-section {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

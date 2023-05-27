@@ -1,0 +1,31 @@
+
+.expert__image {
+    width: 36px;
+    height: 36px;
+  }
+
+  .expert__image-container {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+  }
+
+  .expert {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .expert__name {
+    margin: 0;
+  }
+
+  .expert__description {
+    margin: 0;
+    line-height: 20px;
+    color: #808C9E;
+  }
